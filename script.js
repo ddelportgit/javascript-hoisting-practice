@@ -26,6 +26,7 @@ const country = "USA";
 
 // Task 4
 
-// In task 1 it will return undefined to the console because it is hoisted but only declared when it reaches the code.
+// The var declaration is hoisted and initialized with undefined
+// The assignment happens when execution reaches "var score = 5".
 // In task two it gives a reference error for username because it is still in the tdz
 // The same for task 3. It gives a reference error because country is in the temporal dead zone
